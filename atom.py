@@ -38,7 +38,7 @@ def clean_wordlist(wordlist):
 
 	clean_list =[]
 	for word in wordlist:
-		symbols = '!@#$%^&*()_-+={[}]|\;:"<>?/., '
+		symbols = '!@#$%^&*()_-+={[}]|\;:"<>?/., s'
 
 		for i in range (0, len(symbols)):
 			word = word.replace(symbols[i], '')

@@ -1,4 +1,3 @@
-#psuedo code
 import requests
 from pymongo import MongoClient
 from bs4 import BeautifulSoup
